@@ -1,0 +1,29 @@
+Initialize engine version: 4.1.5f1 (ed5ea3281df6)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.17.12.6141]
+    Renderer: NVIDIA GeForce 9600M GT   
+    Vendor:   NVIDIA
+    VRAM:     2024 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jorge\Desktop\CD\Unity\Movimientos_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jorge\Desktop\CD\Unity\Movimientos_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jorge\Desktop\CD\Unity\Movimientos_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jorge\Desktop\CD\Unity\Movimientos_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.088 seconds
+desktop: 1440x900 60Hz; virtual: 2800x900 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\Jorge\Desktop\CD\Unity\Movimientos_Data\Managed\System.dll (this message is harmless)
+IOException: The port `COM1' does not exist.
+  at System.IO.Ports.WinSerialStream.ReportIOError (System.String optional_arg) [0x00000] in <filename unknown>:0 
+  at System.IO.Ports.WinSerialStream..ctor (System.String port_name, Int32 baud_rate, Int32 data_bits, Parity parity, StopBits sb, Boolean dtr_enable, Boolean rts_enable, Handshake hs, Int32 read_timeout, Int32 write_timeout, Int32 read_buffer_size, Int32 write_buffer_size) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.WinSerialStream:.ctor (string,int,int,System.IO.Ports.Parity,System.IO.Ports.StopBits,bool,bool,System.IO.Ports.Handshake,int,int,int,int)
+  at System.IO.Ports.SerialPort.Open () [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.Ports.SerialPort:Open ()
+  at gui.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

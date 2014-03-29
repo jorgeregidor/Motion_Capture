@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Jorge\Desktop\CD\Arduino\libraries\MPU6050\MPU6050.h">
+    <Files>
+      <File FileName="Assets\pierna_der\rodilla_der.cs" Line="35" Column="67" />
+      <File FileName="Assets\gui.cs" Line="47" Column="38" />
+      <File FileName="Assets\brazo_der\brazo_der.cs" Line="35" Column="17" />
+      <File FileName="Assets\pierna_izq\rodilla_izq.cs" Line="37" Column="17" />
+      <File FileName="..\..\..\Jorge\Desktop\CD\Arduino\libraries\MPU6050\MPU6050.h" Line="22" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
